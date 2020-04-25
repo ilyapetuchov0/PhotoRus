@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:background="@drawable/user_login"
+        android:layout_marginTop="55dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/welcome_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/RobotoStyle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/start_text"
+            android:textSize="16sp"
+            style="@style/RobotoLightStyle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_text"
+            style="@style/RobotoLightStyle"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnLoginEmail"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/email_roundedbutton"
+                android:drawableStart="@drawable/icon_mail"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="16dp"
+                android:text="@string/email_text"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBtnGoogle" />
+
+            <Button
+                android:id="@+id/btnLoginFacebook"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:background="@drawable/facebook_roundedbutton"
+                android:drawableStart="@drawable/facebook_icon"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="16dp"
+                android:text="@string/facebook_text"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBtnGoogle" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="18dp">
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/btnLoginVk"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:background="@drawable/vk_roundedbutton"
+                android:fontFamily="@font/roboto"
+                android:text="@string/vkontakte_text"
+                android:textColor="@color/colorBtnGoogle"
+                android:drawableStart="@drawable/vk_icon"
+                android:paddingLeft="12dp"
+                android:textAllCaps="false"/>
+
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    </LinearLayout>
+</LinearLayout>

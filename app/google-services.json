@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1002511827307",
+    "firebase_url": "https://photorus-f3459.firebaseio.com",
+    "project_id": "photorus-f3459",
+    "storage_bucket": "photorus-f3459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002511827307:android:dccad1359fc5aec345cc2e",
+        "android_client_info": {
+          "package_name": "com.kiberking.photorus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002511827307-m4m76aaaaua77iboepbgur448ciuipn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kiberking.photorus",
+            "certificate_hash": "5668b9bc4945b33b1c688cb6d68212b7775ddb4e"
+          }
+        },
+        {
+          "client_id": "1002511827307-gboikmbmafhi1rnh0k9efsqv94or36r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAH7tPB1CvbuqPDfKaVQ5TmMJ7-LMr2As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002511827307-gboikmbmafhi1rnh0k9efsqv94or36r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

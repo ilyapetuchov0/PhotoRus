@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PhotoRus</string>
+    <string name="login_text">Зарегистрируйтесь или войдите</string>
+    <string name="welcome_text">Зарегистрируйтесь или войдите</string>
+    <string name="start_text">Начните работу с PhotoRus, создав</string>
+    <string name="profile_text">профиль</string>
+    <string name="email_text">Эл. почта</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="google_text">Google</string>
+    <string name="vkontakte_text">Вконтакте</string>
+    <integer name="com_vk_sdk_AppId">7431930</integer>
+</resources>
